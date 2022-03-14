@@ -1,0 +1,82 @@
+nav{
+    background-color: rgb(230, 255, 9);
+    padding: 16px 32px;
+    font-size: 30px;
+    display: flex;
+    align-items:stretch;
+    justify-content: space-around;
+    
+}
+
+nav a.active{
+    font-weight: bolder;
+    font-size: larger;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    text-shadow:1px 1px  rgb(20, 20, 20);
+
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(29, 28, 28);
+    font-weight: bold;
+}
+
+.edit{
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(179, 179, 173);
+    text-decoration: none;
+    height: 15px;
+    width: 30px;
+    padding: 10px;
+    color: black;
+}
+.edit:hover{
+    background-color: yellow;
+}
+.h1{
+   
+    font-weight: bolder;
+    display: inline-block;
+    font-size: 30px;
+    margin: 30px;
+    margin-top: 4s0px;
+}
+.add-btn{
+    display: flex;
+    float  : right;
+    margin: 30px 30px 0 0 ;
+    font-size: 20px;
+    color: rgb(240, 231, 231);
+    background-color: rgb(173, 169, 169);
+}
+.add_btn:hover{
+    background-color: rgb(236, 240, 22);
+}
+
+.btn{
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    float: right;
+    margin: 30px 60px 30px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.submit_btn{
+    background-color: rgb(173, 169, 169);
+    color: white;
+}
+.submit_btn:hover{
+    background-color: rgb(230, 245, 18);
+    color: black;
+}
+.back_btn{
+    background-color: rgb(173, 169, 169);
+    color: white;
+}
+.back_btn:hover{
+    background-color: rgb(26, 24, 24);
+}
